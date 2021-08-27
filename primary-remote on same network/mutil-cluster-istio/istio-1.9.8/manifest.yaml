@@ -1,0 +1,27 @@
+dashboards:
+  istio-extension-dashboard: 13277
+  istio-mesh-dashboard: 7639
+  istio-performance-dashboard: 11829
+  istio-service-dashboard: 7636
+  istio-workload-dashboard: 7630
+  pilot-dashboard: 7645
+dependencies:
+  api:
+    sha: 07d053cfb57e4c742dedf8c6fd91a1b725420ef2
+  client-go:
+    sha: 9311d55237a4c8d14d7df1376b5586b20c901df2
+  gogo-genproto:
+    sha: 3e68afc4441771f9e77bae6034c98cd73ae1eb64
+  istio:
+    sha: 5336ff0f12bc093b728dac3a729b4b2bcbc3df65
+  pkg:
+    sha: 2d0a1c8bd9e5278139e2b7f539660acf422025cb
+  proxy:
+    sha: 5b4dedce4f16569316fccb7a45e4144c4771648c
+  test-infra:
+    sha: 60ba2b2b5acc88f8f2fb80b09c8c4a81036d4dfc
+  tools:
+    sha: aa39f19247ff670e81e4f55a790f0610a6e16980
+docker: docker.io/istio
+ignoreVulnerability: false
+version: 1.9.8
